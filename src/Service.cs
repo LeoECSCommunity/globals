@@ -1,4 +1,4 @@
-﻿// ----------------------------------------------------------------------------
+// ----------------------------------------------------------------------------
 // The MIT License
 // Globals support https://github.com/Leopotam/globals
 // Copyright (c) 2017-2019 Leopotam <leopotam@gmail.com>
