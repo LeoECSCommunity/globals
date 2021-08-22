@@ -1,8 +1,19 @@
-[![license](https://img.shields.io/github/license/Leopotam/globals.svg)](https://github.com/Leopotam/globals/blob/develop/LICENSE.md)
 # Globals support
-[Github repo of globals support](https://github.com/Leopotam/globals).
+Globals pattern implementation (service locator).
 
-# Installation
+> Tested on unity 2020.3 (not dependent on it) and contains assembly definition for compiling to separate assembly file for performance reason.
+
+# Table of content
+* [Socials](#socials)
+* [Installation](#installation)
+    * [As unity module](#as-unity-module)
+    * [As source](#as-source)
+* [Classes](#classes)
+    * [Service](#service)
+* [License](#license)
+
+# Socials
+[![discord](https://img.shields.io/discord/404358247621853185.svg?label=enter%20to%20discord%20server&style=for-the-badge&logo=discord)](https://discord.gg/5GZVde6)
 
 ## As unity module
 This repository can be installed as unity module directly from git url. In this way new line should be added to `Packages/manifest.json`:
@@ -15,7 +26,7 @@ By default last released version will be used. If you need trunk / developing ve
 ```
 
 ## As source
-If you can't / don't want to use unity modules, code can be downloaded as sources archive of required release from [Releases page](`https://github.com/Leopotam/globals/releases`).
+If you can't / don't want to use unity modules, code can be downloaded as sources archive from `Releases` page.
 
 # Classes
 
@@ -52,9 +63,6 @@ Service<PlayerSession>.Set (null);
 ```
 
 # License
-The software released under the terms of the [MIT license](./LICENSE.md). Enjoy.
+The software is released under the terms of the [MIT license](./LICENSE.md).
 
-# Donate
-Its free opensource software, but you can buy me a coffee:
-
-<a href="https://www.buymeacoffee.com/leopotam" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/yellow_img.png" alt="Buy Me A Coffee" style="height: auto !important;width: auto !important;" ></a>
+No personal support or any guarantees.

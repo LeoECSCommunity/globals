@@ -1,7 +1,7 @@
 // ----------------------------------------------------------------------------
 // The MIT License
 // Globals support https://github.com/Leopotam/globals
-// Copyright (c) 2017-2019 Leopotam <leopotam@gmail.com>
+// Copyright (c) 2017-2021 Leopotam <leopotam@gmail.com>
 // ----------------------------------------------------------------------------
 
 using System;
@@ -11,7 +11,7 @@ namespace LeopotamGroup.Globals {
     /// <summary>
     /// Service - Service locator wrapper.
     /// </summary>
-    public sealed class Service<T> where T : class {
+    public static class Service<T> where T : class {
         static T _instance;
 
         /// <summary>
@@ -34,8 +34,9 @@ namespace LeopotamGroup.Globals {
         /// </summary>
         /// <param name="instance">New instance of T type.</param>
         [MethodImpl (MethodImplOptions.AggressiveInlining)]
-        public static void Set (T instance) {
+        public static T Set (T instance) {
             _instance = instance;
+            return _instance;
         }
     }
 }
