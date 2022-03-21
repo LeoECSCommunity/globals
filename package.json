@@ -1,15 +1,14 @@
 {
     "name": "com.leopotam.globals",
     "author": "Leopotam",
-    "displayName": "Leopotam Globals",
+    "displayName": "Globals",
     "description": "Globals access patterns for LeoECS Entity Component System framework.",
     "unity": "2020.3",
-    "version": "2021.8.22",
+    "version": "2022.3.22",
     "keywords": [
-        "leoecs",
-        "ecs",
         "performance",
-        "globals"
+        "globals",
+        "service locator"
     ],
     "dependencies": {},
     "repository": {
